@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display-swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&family=Open+Sans&display=swap');
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
@@ -7,12 +7,12 @@ body {
 
 :root {
     --primary-color: #93B7BE;
-    --secondar-color: #F1FFFA;
+    --secondary-color: #F1FFFA;
     --accent1-color: #D5C7BC;
     --accent2-color: #785964;
 
     --heading-font: 'Sedan SC',serif;
-    --paragraph-font: 'Open Sans',serif;
+    --paragraph-font: 'Open Sans',sans-serif;
 
     --nav-background-color: #F1FFFA;
     --nav-link-color: #454545;
@@ -21,7 +21,6 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family:  var(--heading-font);
     color: var(--primary-color);
 }
 
