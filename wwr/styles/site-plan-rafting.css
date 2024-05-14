@@ -1,28 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freeman&family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento:wght@400;700&family=Sedan+SC&display=swap');
+
+:root {
+    --primary-color: #003049;
+    --secondary-color: #d62828;
+    --accent1-color: #f77f00;
+    --accent2-color: #fcbf49;
+
+    --heading-font: "Playfair Display", serif;
+    --paragraph-font: 'Playfair Display',serif;
+
+    --nav-background-color: #fcbf49;
+    --nav-link-color: #eae2b7;
+    --nav-hover-link-color: #d62828;
+    --nav-hover-background-color: #f77f00;
+}
+
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
 
-:root {
-    --primary-color: #93B7BE;
-    --secondary-color: #F1FFFA;
-    --accent1-color: #D5C7BC;
-    --accent2-color: #785964;
-
-    --heading-font: 'Open Sans',serif;
-    --paragraph-font: 'Playfair Display',sans-serif;
-
-    --nav-background-color: #785964;
-    --nav-link-color: #454545;
-    --nav-hover-link-color: #F1FFFA;
-    --nav-hover-background-color: #D5C7BC;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+
 }
 
 header{
