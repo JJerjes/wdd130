@@ -7,7 +7,7 @@
     --accent2-color: #fcbf49;
 
     --heading-font: "Playfair Display", serif;
-    --paragraph-font: 'Playfair Display',serif;
+    --paragraph-font: serif, "Playfair Display";
 
     --nav-background-color: #fcbf49;
     --nav-link-color: #eae2b7;
@@ -33,6 +33,7 @@ header{
 }
 
 p {
+    font-family: var(--paragraph-font);
     padding: 25px;
 }
 
