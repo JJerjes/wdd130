@@ -9,24 +9,44 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
+header, .grid, footer {
+    max-width: none;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
-    color: white;
+    
+    color: #fff;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: 1px solid black;
     padding: 2rem;
 }
 
 main {
     max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 main img {
@@ -52,6 +72,8 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
@@ -83,3 +105,4 @@ footer {
 .indent {
     padding-left: 2rem;
 }
+
