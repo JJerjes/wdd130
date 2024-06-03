@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us - Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
-    <meta name="description" content="project about us">
-    <meta name="author" content="project about us">
+    <meta name="description" content="project contact us">
+    <meta name="author" content="project contact us">
 </head>
 
 <body>
@@ -20,21 +20,40 @@
         </nav>
     </header>
     <main>
-        <div class="box1"></div>
+           <h1 class="h1-1">Contact Us</h1><br>
+
     <div class="box2">
         <h2 class="h2-1">Get in touch</h2>
         <form class="form-1">
             <label for="name"></label>
             <input type="text" name="name" id="name" placeholder="Name" ><br><br>
 
+            <label for="male">Gender: <br>
+                <input type="radio" name="male-female-donotanswer" id="male" value="male" checked>Male
+            </label>
+            <label for="female">
+                <input type="radio" name="male-female-donotanswer" id="female" value="female">Female
+            </label>
+            <label for="donotanswer"></label>
+            <input type="radio" name="male-female-donotanswer" id="donotanswer" value="donotanswer">Do not answer
+            <br><br>
+
             <label for="phone-number"></label>
-            <input type="number" name="phone-number" id="phone-number" placeholder="+51"><br><br>
+            <input type="number" name="phone-number" id="phone-number" placeholder="+51"><br>
 
             <label for="email"></label>
-            <input type="email" name="email" id="email" placeholder="Email"><br><br>
+            <input type="email" name="email" id="email" placeholder="Email">
 
-            <label for="subject"></label>
-            <input type="text" name="subject" id="subject" placeholder="Subject"><br><br>
+            <p>Amount of people:</p>
+            <label for="people-1">1 People
+            <input type="checkbox" name="people-1" id="people-1" value="people-1">
+            </label>
+            <label for="people-2">2 People
+                <input type="checkbox" name="people-2" id="people-2" value="people-2">
+            </label>
+            <label for="people-3">3 Peolple
+                <input type="checkbox" name="people-3" id="people-3" value="people-3">
+            </label><br>            
 
             <label for="message"></label>
             <textarea name="message" id="message" rows="10" cols="40" placeholder="Message"></textarea> <br>

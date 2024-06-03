@@ -198,9 +198,14 @@ footer p {
 
 /*CONTACT US*/
 
+main, .h1-1 {
+    position: relative;
+    border-radius: 10px;
+}
+
 .h2-1 {
-    font-size: 40px;
-    margin: 15px;
+    font-size: 30px;
+    margin: 20px;
 }
 
 .form-1 {
