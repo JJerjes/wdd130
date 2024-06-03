@@ -44,10 +44,10 @@ body {
 nav {
     display: flex;
     padding: 20px;
-    font-weight: bold;   
+    font-weight: bold;
     justify-content: flex-end;
     margin: 5px;
-    
+
 }
 
 .nav a {
@@ -57,7 +57,7 @@ nav {
     text-align: center;
     margin: 10px;
     background: #f4f2f0
-    
+
 }
 
 nav a:hover {
@@ -117,7 +117,7 @@ h1 {
     display: flex;
 }
 
-.section1 {   
+.section1 {
     margin: 20px;
     text-align: center;
 }
@@ -155,13 +155,13 @@ h1 {
     padding: 5px;
     max-width: 220px;
     margin: auto;
-  
+
 }
 
 .box-2 img {
     max-width: 220px;
     max-height: 150px;
-} 
+}
 
 figcaption {
     justify-content: flex-end;
@@ -182,20 +182,78 @@ footer {
 footer p {
     text-align: center;
     margin: 0;
-    flex-grow: 1; 
+    flex-grow: 1;
 }
 
 .sociallinks {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
 }
 
 .sociallinks .a1 {
-    margin: 25px; 
+    margin: 25px;
     width: 30px;
 }
 
+
 /*CONTACT US*/
+
+.h2-1 {
+    font-size: 40px;
+    margin: 15px;
+}
+
+.form-1 {
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    margin: 20px;
+}
+
+
+.box2 {
+    width: 65%;
+    position: relative;
+    height: 550px;
+    top: 15px;
+    float: left;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+.box3 {
+    width: 35%;
+    height: 580px;
+    float: left;
+    background-color: var(--zero-transparency);
+    border-radius: 10px;
+}
+
+.h3 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.icon {
+    margin: 30px;
+    font-weight: bold;
+
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+    padding: 3px;
+    margin-bottom: -10px;
+}
+
+iframe {
+    width: 350px;
+    height: 200px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
 
 
 
