@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,76 +20,95 @@
             <a class="box" href="contact.html">Contact Us</a><br>
         </nav>
     </header>
-    <main>
-           <h1 class="h1-1">Contact Us</h1><br>
-
-    <div class="box2">
-        <h2 class="h2-1">Get in touch</h2>
+    <main class="main-contact">
+        <h2 class="workers">WORKERS</h2>
+            
+        <figure class="figure-contact">
+            <div  class="div-01">
+                <img src="images/usua01.jpeg" alt="photo of workers">
+                <div class="div-02">Emilia Drago<br>Gerenta de Ventas</div>
+            </div>
+            <div class="div-01">
+                <img src="images/usua02.jpeg" alt="photo of workers">
+                <div class="div-02">Julieta Alvarez<br>Analista financiera</div>
+            </div>
+            <div class="div-01">
+                <img src="images/usua03.jpeg" alt="photo of workers">
+                <div class="div-02">Karla Palomino<br>Desarrollador Web</div>
+            </div>
+        </figure>    
+        <hr>
         <form class="form-1">
-            <label for="name"></label>
-            <input type="text" name="name" id="name" placeholder="Name" ><br><br>
+                <fieldset class="fieldset">
+                    <legend class="legend">Get in touch</legend>
+                    
+                    <div class="form-item">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                    </div>    
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </fieldset>
+                <fieldset class="fieldset">
+                    <legend class="legend">Choose an option:</legend>
+                    <label for="inquiry">
+                        <input type="radio" name="inquiry-reservation-suggestion" id="inquiry" value="inquiry" checked>General Inquiry
+                    </label>
+                    <label for="reservation">
+                        <input type="radio" name="inquiry-reservation-suggestion" id="reservation" value="reservation">Reservation Question
+                    </label>
+                    <label for="suggestion">
+                    <input type="radio" name="inquiry-reservation-suggestion" id="suggestion" value="suggestion">Website Suggestion
+                    </label>
 
-            <label for="male">Gender: <br>
-                <input type="radio" name="male-female-donotanswer" id="male" value="male" checked>Male
-            </label>
-            <label for="female">
-                <input type="radio" name="male-female-donotanswer" id="female" value="female">Female
-            </label>
-            <label for="donotanswer"></label>
-            <input type="radio" name="male-female-donotanswer" id="donotanswer" value="donotanswer">Do not answer
-            <br><br>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" rows="10" cols="40" placeholder="Message"></textarea><br>
 
-            <label for="phone-number"></label>
-            <input type="number" name="phone-number" id="phone-number" placeholder="+51"><br>
-
-            <label for="email"></label>
-            <input type="email" name="email" id="email" placeholder="Email">
-
-            <p>Amount of people:</p>
-            <label for="people-1">1 People or more
-            <input type="checkbox" name="people-1" id="people-1" value="people-1">
-            </label><br>
-        
-            <label for="message"></label>
-            <textarea name="message" id="message" rows="10" cols="40" placeholder="Message"></textarea><br>
-
-            <button type="button">SEND</button>
-
+                    <label for="people-1">
+                        <input type="checkbox" name="people-1" id="people-1" value="people-1">Please subscribe me to the monthly newsletter
+                    </label>
+                </fieldset>
+                    <button class="button-01" type="button">SEND</button>
         </form>
-    </div>
-    
-
-    <div class="box3">
-        <h3 class="h3">Contact us</h3>
-        <figure class="icon">
-            <img class="icon1" src="./images/address.webp" alt="addrees" width="30">Address: 759 Progreso avenue
-        </figure>
-        <figure class="icon">
-            <img class="icon2" src="./images/phone-call.webp" alt="phone number" width="30">Phone: +51 999-999-999
-        </figure>
-        <figure class="icon">
-            <img class="icon3" src="./images/email.webp" alt="email" width="30">Email: info@example.com
-        </figure>
-        <figure class="icon">
-            <img class="icon4" src="./images/website.webp" alt="mapa" width="30">Website
-        </figure>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d62407.75456276413!2d-76.9957365!3d-12.1473716!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1717385533950!5m2!1ses-419!2spe" width="230" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+        <hr>
+        <h2 class="workers">Contact Us</h2>
+        <div class="box3">
+            <figure class="icon">
+                <img class="icon1" src="./images/address.webp" alt="addrees" width="30">Address:<br>759 Progreso avenue
+            </figure>
+            <figure class="icon">
+                <img class="icon2" src="./images/phone-call.webp" alt="phone number" width="30">Phone:<br>+51 999-999-999
+            </figure>
+            <figure class="icon">
+                <img class="icon3" src="./images/email.webp" alt="email" width="30">Email:<br>info@example.com
+            </figure>
+            <figure class="icon">
+                <img class="icon4" src="./images/website.webp" alt="mapa" width="30">Website
+            </figure>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d62407.75456276413!2d-76.9957365!3d-12.1473716!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1717385533950!5m2!1ses-419!2spe"
+                width="230" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
     </main>
+<hr>
     <footer>
         <p class="p">&copy;2024 ⚓ White Alter Rafting ⚓ Jerjes</p>
+
         <nav class="sociallinks">
-            <a class="a1" href="https://app.moqups.com/4gxXAgkBJ9FVdfuLCPmC0I4rWH1ZjbjR/view/page/ad64222d5" target="_blank">
-                <img src="./images/moqups.png" alt="moqups" width="60">
+            <a class="a1" href="https://app.moqups.com/4gxXAgkBJ9FVdfuLCPmC0I4rWH1ZjbjR/view/page/a646d6032"
+                target="_blank">
+                <img src="./images/moqups.png" alt="moqups" width="55">
             </a>
+
             <a class="a1" href="https://facebook.com" target="_blank">
-                <img src="images/facebook.webp" alt="facebook" >
+                <img src="images/facebook.webp" alt="facebook">
             </a>
             <a class="a1" href="https://twitter.com" target="_blank">
-                <img src="images/twitter.webp" alt="twitter" >
+                <img src="images/twitter.webp" alt="twitter">
             </a>
             <a class="a1" href="https://instagram.com" target="_blank">
-                <img src="images/instagram.webp" alt="instagram" >
+                <img src="images/instagram.webp" alt="instagram">
             </a>
         </nav>
     </footer>
